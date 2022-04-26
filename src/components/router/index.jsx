@@ -6,6 +6,7 @@ import AdminPage from "../admin";
 import ContactPage from "../contact";
 import AboutPage from "../about";
 import CategoriesPage from "../categories";
+import Register from "../registration";
 
 const Rout = () => {
   return (
@@ -16,6 +17,7 @@ const Rout = () => {
         <Route exact path="admin" element={<AdminPage/>} />
         <Route path="contact" element={<ContactPage/>} />
         <Route path="categories" element={<CategoriesPage/>} />
+        <Route path="register" element={<Register/>} />
       </Routes>
     </BrowserRouter>
   );
