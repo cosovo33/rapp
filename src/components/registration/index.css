@@ -1,0 +1,37 @@
+
+#InitCont{
+    background-image: url('https://images.unsplash.com/photo-1584589167171-541ce45f1eea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zmxvd2VyJTIwdmFzZXxlbnwwfHwwfHw%3D&w=1000&q=80');
+    /*
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8zIZvAOI0xwwQktI3x_6YFKVPxNZseNChw&usqp=CAU');
+    */filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%; 
+  width:75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+    top: 0%;
+    left: 13%;
+}
+html{
+    background-color:  rgb(243, 242, 242);;
+}
+#InitCont1{
+    background-color: rgb(147, 139, 139); /* Fallback color */
+    background-color: rgba(147, 139, 139, 0.5); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.textfield{
+    
+}
